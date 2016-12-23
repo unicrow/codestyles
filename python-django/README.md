@@ -13,12 +13,6 @@ foo = long_function_name(
     var_three, var_four
 )
 ```
-
-```python
-foo = long_function_name(
-    var_one, var_two,
-    var_three, var_four)
-```
 ---
 
 ```python
@@ -35,13 +29,6 @@ if (this_is_one_thing and
     do_something()
 ```
 ---
-
-```python
-my_list = [
-    1, 2, 3,
-    4, 5, 6,
-    ]
-```
 
 ```python
 my_list = [
