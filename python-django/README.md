@@ -328,6 +328,14 @@ Model Class Order
 
 ---
 
+```
+announce = CourseBasedAnnounce.objects \
+    .by_user_course(user=user, course=course) \
+    .select_related('course') \
+    .first()
+```
+---
+
 ```python
 {{ foo }}
 ```
